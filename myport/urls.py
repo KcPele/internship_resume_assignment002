@@ -11,4 +11,4 @@ urlpatterns = [
    path('email-subscribe', views.email_subscribe, name='email_subscribe'),
 ]
 
-urlpatterns += staticfiles_urlpatterns
+urlpatterns += staticfiles_urlpatterns()
